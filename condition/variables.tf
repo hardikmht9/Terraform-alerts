@@ -28,6 +28,7 @@ variable "alert_conditions" {
     slide_by                     = number
     threshold                    = number
     duration_minutes             = number
-    query                        = string
+    query                        =string
+    api_key                     = string
   }))
 }

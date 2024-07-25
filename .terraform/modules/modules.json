@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"alert_policy","Source":"./Policy","Dir":"Policy"},{"Key":"nrql_alert_condition","Source":"./condition","Dir":"condition"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"alert_policy","Source":"./Policy","Dir":"Policy"},{"Key":"nrql_alert_condition","Source":"./condition","Dir":"condition"},{"Key":"service_level","Source":"./SLA","Dir":"SLA"}]}

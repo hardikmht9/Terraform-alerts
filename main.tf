@@ -26,7 +26,16 @@ module "alert_policy" {
 module "nrql_alert_condition" {
   source           = "./condition"
   account_id        = var.account_id
-  api_key = var.api_key
+  api_key           =  var.api_key
   policy_id        = module.alert_policy.alert_policy_id[0]
+  
+  
   alert_conditions  =var.alert_conditions
+  
 }
+
+module "service_level" {
+  source      = "./SLA"
+  newrelic_service_level= var.newrelic_service_level
+}
+ 

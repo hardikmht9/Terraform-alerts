@@ -29,5 +29,19 @@ variable "alert_conditions" {
     threshold                    = number
     duration_minutes             = number
     query                        = string
+    api_key                      = string
   }))
+}
+variable "newrelic_service_level" {
+    type=map(object({
+        name= string
+        description= string
+        guid = string
+        from= string
+        where= string
+        target= number
+        count= number
+        
+    }))
+  
 }
